@@ -1,0 +1,26 @@
+.head{
+  position: relative;
+}
+.head-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  padding: 1.8rem 15rem;
+  margin-top: 0;
+  background-color: #a8abaa;
+}
+
+.dropdown-content {
+  list-style-type: none;
+  display: none;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  position: absolute;
+  z-index: 1;
+}
+
+.pages:hover .dropdown-content {
+  display: block;
+}
